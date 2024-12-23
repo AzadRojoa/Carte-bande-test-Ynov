@@ -32,3 +32,4 @@ Ce projet est une carte de test pour évaluer différents composants en utilisan
 - Brancher un composant sur la carte électronique
 - Relancer la carte
 
+![Schéma du circuit](Shéma.png)

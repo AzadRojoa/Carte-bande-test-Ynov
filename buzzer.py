@@ -43,5 +43,7 @@ class BUZZER:
             self.PlayTone(frequency, duration)
             time.sleep(0.05)
 
-    def TestBuzzerMario(self):
-        self.PlayMelody(self.mario_melody)
+def TestBuzzer():
+    buzzer = BUZZER(2)
+    buzzer.PlayMelody(buzzer.mario_melody)
+

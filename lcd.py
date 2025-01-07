@@ -70,13 +70,13 @@ class LCD:
                     return 300
 
 
-if __name__ == "__main__":
-    RS_PIN = 16
-    ENABLE_PIN = 17
-    DATA_PINS = [5, 18, 19, 21, 22, 23, 32, 33]
-    lcd = LCD(RS_PIN, ENABLE_PIN, DATA_PINS)
-    a = "ENFIN"
-    lcd.write(a)
+# if __name__ == "__main__":
+#     RS_PIN = 16
+#     ENABLE_PIN = 17
+#     DATA_PINS = [5, 18, 19, 21, 22, 23, 32, 33]
+#     lcd = LCD(RS_PIN, ENABLE_PIN, DATA_PINS)
+#     a = "ENFIN"
+#     lcd.write(a)
 
 
 

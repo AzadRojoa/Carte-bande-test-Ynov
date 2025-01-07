@@ -13,11 +13,13 @@ class SevenSegments:
             pin.value(0)
 
 
-    def TestSevenSegments(self):
-        self.InitialisePins()
-        for i in self.tab:
-            time.sleep(0.5)
-            pin = Pin(i, mode=Pin.OUT)
-            pin.value(1)
-        time.sleep(2)
-        self.InitialisePins()
+def TestSevenSegments():
+    segments = SevenSegments([13,12,14,27,26,25,33,32])
+    segments.InitialisePins()
+    for i in segments.tab:
+        time.sleep(0.5)
+        pin = Pin(i, mode=Pin.OUT)
+        pin.value(1)
+    time.sleep(2)
+    segments.InitialisePins()
+
